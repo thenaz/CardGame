@@ -11,8 +11,28 @@ import UIKit
 class Card
 {
     private var backImage : UIImage
+        {
+        get
+        {
+            return self.backImage
+        }
+        set(backImage)
+        {
+            self.backImage = backImage
+        }
+    }
     
     private var isFaceUp: Bool
+        {
+        get
+        {
+            return self.isFaceUp
+        }
+        set(isFaceUp)
+        {
+            self.isFaceUp = isFaceUp
+        }
+    }
     
     init()
     {
@@ -39,4 +59,30 @@ class Card
     {
         return isFaceUp
     }
+    
+    func setIsFacing(isFaceUp : Bool) -> Void
+    {
+        self.isFaceUp = isFaceUp
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
