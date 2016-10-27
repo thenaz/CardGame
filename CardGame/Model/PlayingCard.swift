@@ -33,6 +33,29 @@ class PlayingCard : Card
             self.suit = suit
         }
         
+        private var color : UIColor
+        {
+        get
+        {
+            return self.color
+        }
+        set(color)
+        {
+            self.color = color
+        }
+        
+        
+        override init()
+        {
+        super.init()
+        frontImage = UIImage()
+        color = UIColor()
+        rank = 0
+        suit = ""
+        }
+    
+        }
+        
     }
     
     func getRank() -> Int
