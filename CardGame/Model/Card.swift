@@ -30,6 +30,11 @@ class Card
         return backImage
     }
     
+    func setBackImage(newImage : UIImage)
+    {
+        backImage = newImage
+    }
+    
     func isUp() -> Bool
     {
         return isFaceUp
