@@ -56,6 +56,13 @@ class PlayingCard : Card
     
         }
         
+        override func toString() -> String
+        {
+        let description = "This PlayingCard has a face value of \(rank), a color of \(color), and is of the \(suit) suit"
+        
+        return description
+        }
+        
     }
     
     func getRank() -> Int
