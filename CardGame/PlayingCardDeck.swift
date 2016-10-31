@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+class PlayingCardDeck : Deck
+{
+    
+    override init()
+    {
+        
+    }
+    
+    func shuffleDeck() -> Void
+    {
+        
+    }
+    
+    func orderDeck() -> Void
+    {
+        
+    }
+}
