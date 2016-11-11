@@ -49,6 +49,7 @@ class PlayingCard : Card
         {
         super.init()
         
+        //Chooses a vali random index in the range of 0...cards.count-1
         //frontImage = UIImage(named: "cardfront")!
         color = UIColor.redColor()
         rank = 0
